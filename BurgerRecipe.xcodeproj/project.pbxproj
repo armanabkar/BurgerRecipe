@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0432B62264E962000D75DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B61264E962000D75DAC /* AppDelegate.swift */; };
+		F0432B64264E962000D75DAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B63264E962000D75DAC /* SceneDelegate.swift */; };
+		F0432B69264E962000D75DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0432B67264E962000D75DAC /* Main.storyboard */; };
+		F0432B6B264E962100D75DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0432B6A264E962100D75DAC /* Assets.xcassets */; };
+		F0432B6E264E962100D75DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0432B6C264E962100D75DAC /* LaunchScreen.storyboard */; };
+		F0432B7B264E98D700D75DAC /* RecipesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B7A264E98D700D75DAC /* RecipesListViewController.swift */; };
+		F0432B7F264E990100D75DAC /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B7E264E990100D75DAC /* FavouritesViewController.swift */; };
+		F0432B84264E9B2400D75DAC /* BurgerResources in Resources */ = {isa = PBXBuildFile; fileRef = F0432B83264E9B2400D75DAC /* BurgerResources */; };
+		F0432B87264E9B4700D75DAC /* BurgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B86264E9B4700D75DAC /* BurgerModel.swift */; };
+		F0432B8B264E9BD600D75DAC /* BurgerJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B8A264E9BD600D75DAC /* BurgerJSON.swift */; };
+		F0432B8E264E9BF500D75DAC /* Burger+CordDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B8D264E9BF500D75DAC /* Burger+CordDataClass.swift */; };
+		F0432B95264E9D0800D75DAC /* RecipeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0432B94264E9D0800D75DAC /* RecipeDetail.storyboard */; };
+		F0432B98264E9D4D00D75DAC /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B97264E9D4D00D75DAC /* AddRecipeViewController.swift */; };
+		F0432B9B264E9D9700D75DAC /* AddRecipe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0432B9A264E9D9700D75DAC /* AddRecipe.storyboard */; };
+		F0432B9E264E9DC400D75DAC /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432B9D264E9DC400D75DAC /* RecipeDetailViewController.swift */; };
+		F0432BA1264E9E0900D75DAC /* CustomSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432BA0264E9E0900D75DAC /* CustomSplitViewController.swift */; };
+		F0432BA4264E9E2C00D75DAC /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432BA3264E9E2C00D75DAC /* AccountViewController.swift */; };
+		F0432BA7264E9F6900D75DAC /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0432BA6264E9F6900D75DAC /* RecipeTableViewCell.swift */; };
+		F0432BAA264E9FDB00D75DAC /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0432BA9264E9FDB00D75DAC /* RecipeTableViewCell.xib */; };
+		F0432BB1264EA2DD00D75DAC /* BurgerRecipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0432BAF264EA2DD00D75DAC /* BurgerRecipe.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0432B5E264E962000D75DAC /* BurgerRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0432B61264E962000D75DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0432B63264E962000D75DAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0432B68264E962000D75DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0432B6A264E962100D75DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0432B6D264E962100D75DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0432B6F264E962100D75DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0432B7A264E98D700D75DAC /* RecipesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewController.swift; sourceTree = "<group>"; };
+		F0432B7E264E990100D75DAC /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		F0432B83264E9B2400D75DAC /* BurgerResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BurgerResources; sourceTree = "<group>"; };
+		F0432B86264E9B4700D75DAC /* BurgerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerModel.swift; sourceTree = "<group>"; };
+		F0432B8A264E9BD600D75DAC /* BurgerJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerJSON.swift; sourceTree = "<group>"; };
+		F0432B8D264E9BF500D75DAC /* Burger+CordDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Burger+CordDataClass.swift"; sourceTree = "<group>"; };
+		F0432B94264E9D0800D75DAC /* RecipeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipeDetail.storyboard; sourceTree = "<group>"; };
+		F0432B97264E9D4D00D75DAC /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		F0432B9A264E9D9700D75DAC /* AddRecipe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddRecipe.storyboard; sourceTree = "<group>"; };
+		F0432B9D264E9DC400D75DAC /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		F0432BA0264E9E0900D75DAC /* CustomSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSplitViewController.swift; sourceTree = "<group>"; };
+		F0432BA3264E9E2C00D75DAC /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		F0432BA6264E9F6900D75DAC /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		F0432BA9264E9FDB00D75DAC /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		F0432BAC264EA14A00D75DAC /* BurgerRecipe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BurgerRecipe.entitlements; sourceTree = "<group>"; };
+		F0432BB0264EA2DD00D75DAC /* BurgerRecipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurgerRecipe.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0432B5B264E962000D75DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0432B55264E962000D75DAC = {
+			isa = PBXGroup;
+			children = (
+				F0432B60264E962000D75DAC /* BurgerRecipe */,
+				F0432B5F264E962000D75DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0432B5F264E962000D75DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0432B5E264E962000D75DAC /* BurgerRecipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0432B60264E962000D75DAC /* BurgerRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				F0432BAC264EA14A00D75DAC /* BurgerRecipe.entitlements */,
+				F0432B82264E992600D75DAC /* View */,
+				F0432B81264E991E00D75DAC /* Model */,
+				F0432B79264E989600D75DAC /* Controller */,
+				F0432B77264E968700D75DAC /* Supporting Files */,
+			);
+			path = BurgerRecipe;
+			sourceTree = "<group>";
+		};
+		F0432B77264E968700D75DAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0432B83264E9B2400D75DAC /* BurgerResources */,
+				F0432B61264E962000D75DAC /* AppDelegate.swift */,
+				F0432B63264E962000D75DAC /* SceneDelegate.swift */,
+				F0432B6A264E962100D75DAC /* Assets.xcassets */,
+				F0432B6C264E962100D75DAC /* LaunchScreen.storyboard */,
+				F0432B6F264E962100D75DAC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0432B79264E989600D75DAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F0432B97264E9D4D00D75DAC /* AddRecipeViewController.swift */,
+				F0432B7E264E990100D75DAC /* FavouritesViewController.swift */,
+				F0432B9D264E9DC400D75DAC /* RecipeDetailViewController.swift */,
+				F0432B7A264E98D700D75DAC /* RecipesListViewController.swift */,
+				F0432BA0264E9E0900D75DAC /* CustomSplitViewController.swift */,
+				F0432BA3264E9E2C00D75DAC /* AccountViewController.swift */,
+				F0432BA6264E9F6900D75DAC /* RecipeTableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0432B81264E991E00D75DAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0432B86264E9B4700D75DAC /* BurgerModel.swift */,
+				F0432B8A264E9BD600D75DAC /* BurgerJSON.swift */,
+				F0432B8D264E9BF500D75DAC /* Burger+CordDataClass.swift */,
+				F0432BAF264EA2DD00D75DAC /* BurgerRecipe.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0432B82264E992600D75DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0432B67264E962000D75DAC /* Main.storyboard */,
+				F0432B94264E9D0800D75DAC /* RecipeDetail.storyboard */,
+				F0432B9A264E9D9700D75DAC /* AddRecipe.storyboard */,
+				F0432BA9264E9FDB00D75DAC /* RecipeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0432B5D264E962000D75DAC /* BurgerRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0432B72264E962100D75DAC /* Build configuration list for PBXNativeTarget "BurgerRecipe" */;
+			buildPhases = (
+				F0432B5A264E962000D75DAC /* Sources */,
+				F0432B5B264E962000D75DAC /* Frameworks */,
+				F0432B5C264E962000D75DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerRecipe;
+			productName = BurgerRecipe;
+			productReference = F0432B5E264E962000D75DAC /* BurgerRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0432B56264E962000D75DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F0432B5D264E962000D75DAC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F0432B59264E962000D75DAC /* Build configuration list for PBXProject "BurgerRecipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0432B55264E962000D75DAC;
+			productRefGroup = F0432B5F264E962000D75DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0432B5D264E962000D75DAC /* BurgerRecipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0432B5C264E962000D75DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0432BAA264E9FDB00D75DAC /* RecipeTableViewCell.xib in Resources */,
+				F0432B9B264E9D9700D75DAC /* AddRecipe.storyboard in Resources */,
+				F0432B95264E9D0800D75DAC /* RecipeDetail.storyboard in Resources */,
+				F0432B6E264E962100D75DAC /* LaunchScreen.storyboard in Resources */,
+				F0432B84264E9B2400D75DAC /* BurgerResources in Resources */,
+				F0432B6B264E962100D75DAC /* Assets.xcassets in Resources */,
+				F0432B69264E962000D75DAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0432B5A264E962000D75DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0432B98264E9D4D00D75DAC /* AddRecipeViewController.swift in Sources */,
+				F0432BA4264E9E2C00D75DAC /* AccountViewController.swift in Sources */,
+				F0432BA7264E9F6900D75DAC /* RecipeTableViewCell.swift in Sources */,
+				F0432B7F264E990100D75DAC /* FavouritesViewController.swift in Sources */,
+				F0432B87264E9B4700D75DAC /* BurgerModel.swift in Sources */,
+				F0432B7B264E98D700D75DAC /* RecipesListViewController.swift in Sources */,
+				F0432BA1264E9E0900D75DAC /* CustomSplitViewController.swift in Sources */,
+				F0432B62264E962000D75DAC /* AppDelegate.swift in Sources */,
+				F0432BB1264EA2DD00D75DAC /* BurgerRecipe.xcdatamodeld in Sources */,
+				F0432B8E264E9BF500D75DAC /* Burger+CordDataClass.swift in Sources */,
+				F0432B8B264E9BD600D75DAC /* BurgerJSON.swift in Sources */,
+				F0432B9E264E9DC400D75DAC /* RecipeDetailViewController.swift in Sources */,
+				F0432B64264E962000D75DAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0432B67264E962000D75DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0432B68264E962000D75DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0432B6C264E962100D75DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0432B6D264E962100D75DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0432B70264E962100D75DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0432B71264E962100D75DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0432B73264E962100D75DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BurgerRecipe/BurgerRecipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMW26WR72K;
+				INFOPLIST_FILE = "BurgerRecipe/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.armanabkar.BurgerRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0432B74264E962100D75DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BurgerRecipe/BurgerRecipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMW26WR72K;
+				INFOPLIST_FILE = "BurgerRecipe/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.armanabkar.BurgerRecipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0432B59264E962000D75DAC /* Build configuration list for PBXProject "BurgerRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0432B70264E962100D75DAC /* Debug */,
+				F0432B71264E962100D75DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0432B72264E962100D75DAC /* Build configuration list for PBXNativeTarget "BurgerRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0432B73264E962100D75DAC /* Debug */,
+				F0432B74264E962100D75DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0432BAF264EA2DD00D75DAC /* BurgerRecipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0432BB0264EA2DD00D75DAC /* BurgerRecipe.xcdatamodel */,
+			);
+			currentVersion = F0432BB0264EA2DD00D75DAC /* BurgerRecipe.xcdatamodel */;
+			name = BurgerRecipe.xcdatamodeld;
+			path = "../../../../Downloads/exercise_files/Section 7/BurgerRecipe/BurgerRecipe/Model/BurgerRecipe.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0432B56264E962000D75DAC /* Project object */;
+}
